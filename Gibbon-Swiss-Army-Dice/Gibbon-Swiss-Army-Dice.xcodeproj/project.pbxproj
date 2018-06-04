@@ -14,6 +14,7 @@
 		A50B88D220C5B68A0059D3EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50B88D020C5B68A0059D3EB /* LaunchScreen.storyboard */; };
 		A50B88DD20C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B88DC20C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceTests.swift */; };
 		A50B88E820C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B88E720C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceUITests.swift */; };
+		A50B88F620C5B9950059D3EB /* DNDmechanics.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B88F520C5B9950059D3EB /* DNDmechanics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A50B88E320C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gibbon-Swiss-Army-DiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A50B88E720C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gibbon_Swiss_Army_DiceUITests.swift; sourceTree = "<group>"; };
 		A50B88E920C5B68B0059D3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50B88F520C5B9950059D3EB /* DNDmechanics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNDmechanics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				A50B88C720C5B6880059D3EB /* AppDelegate.swift */,
 				A50B88C920C5B6880059D3EB /* ViewController.swift */,
 				A50B88CB20C5B6880059D3EB /* Main.storyboard */,
+				A50B88F520C5B9950059D3EB /* DNDmechanics.swift */,
 				A50B88CE20C5B68A0059D3EB /* Assets.xcassets */,
 				A50B88D020C5B68A0059D3EB /* LaunchScreen.storyboard */,
 				A50B88D320C5B68A0059D3EB /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				A50B88CA20C5B6880059D3EB /* ViewController.swift in Sources */,
 				A50B88C820C5B6880059D3EB /* AppDelegate.swift in Sources */,
+				A50B88F620C5B9950059D3EB /* DNDmechanics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
