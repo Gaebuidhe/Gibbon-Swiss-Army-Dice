@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A50B88C820C5B6880059D3EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B88C720C5B6880059D3EB /* AppDelegate.swift */; };
+		A50B88CA20C5B6880059D3EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B88C920C5B6880059D3EB /* ViewController.swift */; };
+		A50B88CD20C5B6880059D3EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50B88CB20C5B6880059D3EB /* Main.storyboard */; };
+		A50B88CF20C5B68A0059D3EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50B88CE20C5B68A0059D3EB /* Assets.xcassets */; };
+		A50B88D220C5B68A0059D3EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50B88D020C5B68A0059D3EB /* LaunchScreen.storyboard */; };
+		A50B88DD20C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B88DC20C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceTests.swift */; };
+		A50B88E820C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B88E720C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A50B88D920C5B68B0059D3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50B88BC20C5B6880059D3EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50B88C320C5B6880059D3EB;
+			remoteInfo = "Gibbon-Swiss-Army-Dice";
+		};
+		A50B88E420C5B68B0059D3EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A50B88BC20C5B6880059D3EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A50B88C320C5B6880059D3EB;
+			remoteInfo = "Gibbon-Swiss-Army-Dice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A50B88C420C5B6880059D3EB /* Gibbon-Swiss-Army-Dice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gibbon-Swiss-Army-Dice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B88C720C5B6880059D3EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A50B88C920C5B6880059D3EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A50B88CC20C5B6880059D3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A50B88CE20C5B68A0059D3EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A50B88D120C5B68A0059D3EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A50B88D320C5B68A0059D3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50B88D820C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gibbon-Swiss-Army-DiceTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B88DC20C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gibbon_Swiss_Army_DiceTests.swift; sourceTree = "<group>"; };
+		A50B88DE20C5B68B0059D3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A50B88E320C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gibbon-Swiss-Army-DiceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B88E720C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gibbon_Swiss_Army_DiceUITests.swift; sourceTree = "<group>"; };
+		A50B88E920C5B68B0059D3EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50B88C120C5B6880059D3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B88D520C5B68B0059D3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B88E020C5B68B0059D3EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50B88BB20C5B6880059D3EB = {
+			isa = PBXGroup;
+			children = (
+				A50B88C620C5B6880059D3EB /* Gibbon-Swiss-Army-Dice */,
+				A50B88DB20C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceTests */,
+				A50B88E620C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceUITests */,
+				A50B88C520C5B6880059D3EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A50B88C520C5B6880059D3EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50B88C420C5B6880059D3EB /* Gibbon-Swiss-Army-Dice.app */,
+				A50B88D820C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceTests.xctest */,
+				A50B88E320C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50B88C620C5B6880059D3EB /* Gibbon-Swiss-Army-Dice */ = {
+			isa = PBXGroup;
+			children = (
+				A50B88C720C5B6880059D3EB /* AppDelegate.swift */,
+				A50B88C920C5B6880059D3EB /* ViewController.swift */,
+				A50B88CB20C5B6880059D3EB /* Main.storyboard */,
+				A50B88CE20C5B68A0059D3EB /* Assets.xcassets */,
+				A50B88D020C5B68A0059D3EB /* LaunchScreen.storyboard */,
+				A50B88D320C5B68A0059D3EB /* Info.plist */,
+			);
+			path = "Gibbon-Swiss-Army-Dice";
+			sourceTree = "<group>";
+		};
+		A50B88DB20C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceTests */ = {
+			isa = PBXGroup;
+			children = (
+				A50B88DC20C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceTests.swift */,
+				A50B88DE20C5B68B0059D3EB /* Info.plist */,
+			);
+			path = "Gibbon-Swiss-Army-DiceTests";
+			sourceTree = "<group>";
+		};
+		A50B88E620C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A50B88E720C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceUITests.swift */,
+				A50B88E920C5B68B0059D3EB /* Info.plist */,
+			);
+			path = "Gibbon-Swiss-Army-DiceUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50B88C320C5B6880059D3EB /* Gibbon-Swiss-Army-Dice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B88EC20C5B68B0059D3EB /* Build configuration list for PBXNativeTarget "Gibbon-Swiss-Army-Dice" */;
+			buildPhases = (
+				A50B88C020C5B6880059D3EB /* Sources */,
+				A50B88C120C5B6880059D3EB /* Frameworks */,
+				A50B88C220C5B6880059D3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gibbon-Swiss-Army-Dice";
+			productName = "Gibbon-Swiss-Army-Dice";
+			productReference = A50B88C420C5B6880059D3EB /* Gibbon-Swiss-Army-Dice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A50B88D720C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B88EF20C5B68B0059D3EB /* Build configuration list for PBXNativeTarget "Gibbon-Swiss-Army-DiceTests" */;
+			buildPhases = (
+				A50B88D420C5B68B0059D3EB /* Sources */,
+				A50B88D520C5B68B0059D3EB /* Frameworks */,
+				A50B88D620C5B68B0059D3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50B88DA20C5B68B0059D3EB /* PBXTargetDependency */,
+			);
+			name = "Gibbon-Swiss-Army-DiceTests";
+			productName = "Gibbon-Swiss-Army-DiceTests";
+			productReference = A50B88D820C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A50B88E220C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B88F220C5B68B0059D3EB /* Build configuration list for PBXNativeTarget "Gibbon-Swiss-Army-DiceUITests" */;
+			buildPhases = (
+				A50B88DF20C5B68B0059D3EB /* Sources */,
+				A50B88E020C5B68B0059D3EB /* Frameworks */,
+				A50B88E120C5B68B0059D3EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A50B88E520C5B68B0059D3EB /* PBXTargetDependency */,
+			);
+			name = "Gibbon-Swiss-Army-DiceUITests";
+			productName = "Gibbon-Swiss-Army-DiceUITests";
+			productReference = A50B88E320C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50B88BC20C5B6880059D3EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Joseph Frazier";
+				TargetAttributes = {
+					A50B88C320C5B6880059D3EB = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					A50B88D720C5B68B0059D3EB = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A50B88C320C5B6880059D3EB;
+					};
+					A50B88E220C5B68B0059D3EB = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = A50B88C320C5B6880059D3EB;
+					};
+				};
+			};
+			buildConfigurationList = A50B88BF20C5B6880059D3EB /* Build configuration list for PBXProject "Gibbon-Swiss-Army-Dice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50B88BB20C5B6880059D3EB;
+			productRefGroup = A50B88C520C5B6880059D3EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50B88C320C5B6880059D3EB /* Gibbon-Swiss-Army-Dice */,
+				A50B88D720C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceTests */,
+				A50B88E220C5B68B0059D3EB /* Gibbon-Swiss-Army-DiceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50B88C220C5B6880059D3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B88D220C5B68A0059D3EB /* LaunchScreen.storyboard in Resources */,
+				A50B88CF20C5B68A0059D3EB /* Assets.xcassets in Resources */,
+				A50B88CD20C5B6880059D3EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B88D620C5B68B0059D3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B88E120C5B68B0059D3EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50B88C020C5B6880059D3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B88CA20C5B6880059D3EB /* ViewController.swift in Sources */,
+				A50B88C820C5B6880059D3EB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B88D420C5B68B0059D3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B88DD20C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A50B88DF20C5B68B0059D3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B88E820C5B68B0059D3EB /* Gibbon_Swiss_Army_DiceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A50B88DA20C5B68B0059D3EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50B88C320C5B6880059D3EB /* Gibbon-Swiss-Army-Dice */;
+			targetProxy = A50B88D920C5B68B0059D3EB /* PBXContainerItemProxy */;
+		};
+		A50B88E520C5B68B0059D3EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A50B88C320C5B6880059D3EB /* Gibbon-Swiss-Army-Dice */;
+			targetProxy = A50B88E420C5B68B0059D3EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A50B88CB20C5B6880059D3EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50B88CC20C5B6880059D3EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A50B88D020C5B68A0059D3EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50B88D120C5B68A0059D3EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A50B88EA20C5B68B0059D3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50B88EB20C5B68B0059D3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50B88ED20C5B68B0059D3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYU6WY7T64;
+				INFOPLIST_FILE = "Gibbon-Swiss-Army-Dice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeGibbonToolbox.Gibbon-Swiss-Army-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50B88EE20C5B68B0059D3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYU6WY7T64;
+				INFOPLIST_FILE = "Gibbon-Swiss-Army-Dice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeGibbonToolbox.Gibbon-Swiss-Army-Dice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A50B88F020C5B68B0059D3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYU6WY7T64;
+				INFOPLIST_FILE = "Gibbon-Swiss-Army-DiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeGibbonToolbox.Gibbon-Swiss-Army-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gibbon-Swiss-Army-Dice.app/Gibbon-Swiss-Army-Dice";
+			};
+			name = Debug;
+		};
+		A50B88F120C5B68B0059D3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYU6WY7T64;
+				INFOPLIST_FILE = "Gibbon-Swiss-Army-DiceTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeGibbonToolbox.Gibbon-Swiss-Army-DiceTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gibbon-Swiss-Army-Dice.app/Gibbon-Swiss-Army-Dice";
+			};
+			name = Release;
+		};
+		A50B88F320C5B68B0059D3EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYU6WY7T64;
+				INFOPLIST_FILE = "Gibbon-Swiss-Army-DiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeGibbonToolbox.Gibbon-Swiss-Army-DiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gibbon-Swiss-Army-Dice";
+			};
+			name = Debug;
+		};
+		A50B88F420C5B68B0059D3EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZYU6WY7T64;
+				INFOPLIST_FILE = "Gibbon-Swiss-Army-DiceUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CodeGibbonToolbox.Gibbon-Swiss-Army-DiceUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gibbon-Swiss-Army-Dice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50B88BF20C5B6880059D3EB /* Build configuration list for PBXProject "Gibbon-Swiss-Army-Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B88EA20C5B68B0059D3EB /* Debug */,
+				A50B88EB20C5B68B0059D3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50B88EC20C5B68B0059D3EB /* Build configuration list for PBXNativeTarget "Gibbon-Swiss-Army-Dice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B88ED20C5B68B0059D3EB /* Debug */,
+				A50B88EE20C5B68B0059D3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50B88EF20C5B68B0059D3EB /* Build configuration list for PBXNativeTarget "Gibbon-Swiss-Army-DiceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B88F020C5B68B0059D3EB /* Debug */,
+				A50B88F120C5B68B0059D3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50B88F220C5B68B0059D3EB /* Build configuration list for PBXNativeTarget "Gibbon-Swiss-Army-DiceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B88F320C5B68B0059D3EB /* Debug */,
+				A50B88F420C5B68B0059D3EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50B88BC20C5B6880059D3EB /* Project object */;
+}
